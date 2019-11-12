@@ -1,0 +1,33 @@
+# MultiRC: Reasoning over Mulitple Sentences 
+
+This repo contains a few useful in this work. To read more details on the paper, refer to [this page](http://cogcomp.org/page/publication_view/833) or [the dataset page](http://cogcomp.org/multirc/). 
+
+## Evaluation 
+The evaluation script used is included in the `multirc_materials/` folder.  
+
+To get F1 measures: 
+
+```bash
+> python eval/multirc-eval-v1.py 
+Per question measures (i.e. precision-recall per question, then average) 
+        P: 0.825211112777 - R: 0.907502623295 - F1m: 0.864402738925
+Dataset-wide measures (i.e. precision-recall across all the candidate-answers in the dataset) 
+        P: 0.82434611161 - R: 0.906551362683 - F1a: 0.86349665639
+```
+
+## Reasoning categories 
+The collection of question annotations (with their reasoning phenomena) used in this work: 
+[Google Drive Link](https://docs.google.com/spreadsheets/d/1Illoa4FrDFYPWzgNi6rSrRhCKxWYSfyrtUDLLzJgBtM/edit?usp=sharing)
+(see the Section 4 of the aforementioned paper)
+
+## Citation 
+If you use this, please cite the paper: 
+
+```
+@inproceedings{MultiRC2018,
+    author = {Daniel Khashabi and Snigdha Chaturvedi and Michael Roth and Shyam Upadhyay and Dan Roth},
+    title = {Looking Beyond the Surface:A Challenge Set for Reading Comprehension over Multiple Sentences},
+    booktitle = {NAACL},
+    year = {2018}
+}
+```
