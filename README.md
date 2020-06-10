@@ -20,6 +20,4 @@ Please note that we have reported numbers from original BERT tensorflow codes(ht
 Please note that we use MultiRC official evaluation codes within this file. 
 
 
-Apologies again for the delay in cleaning of codes, I will try to finish it by next week. 
-
 
